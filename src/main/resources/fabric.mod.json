@@ -1,0 +1,39 @@
+{
+	"schemaVersion": 1,
+	"id": "aki",
+	"version": "${version}",
+	"name": "Akicater's shelf mod ",
+	"description": "This mod add basic shelves for storing up to 64*4=256 items",
+	"authors": [
+		"Akicater"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/aki/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.aki.AkiMod"
+		],
+		"fabric-datagen": [
+			"com.aki.AkiDataGenerator"
+		],"client": [
+			"com.aki.AkiModClient"
+		]
+	},
+	"mixins": [
+		"aki.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.22",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

@@ -1,0 +1,21 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "misc",
+	"key": {
+		"#": {
+			"item": "minecraft:crimson_planks"
+		},
+		"X": {
+			"item": "minecraft:crimson_slab"
+		}
+	},
+	"pattern": [
+		"#X#",
+		"#X#",
+		"#X#"
+	],
+	"result": {
+		"item": "aki:shelf_crimson"
+	},
+	"show_notification": true
+}

@@ -1,0 +1,21 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "misc",
+	"key": {
+		"#": {
+			"item": "minecraft:acacia_planks"
+		},
+		"X": {
+			"item": "minecraft:acacia_slab"
+		}
+	},
+	"pattern": [
+		"#X#",
+		"#X#",
+		"#X#"
+	],
+	"result": {
+		"item": "aki:shelf_acacia"
+	},
+	"show_notification": true
+}

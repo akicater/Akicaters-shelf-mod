@@ -1,0 +1,8 @@
+{
+	"variants": {
+		"facing=north": { "model": "aki:block/shelf_acacia", "y": 270 },
+		"facing=east":  { "model": "aki:block/shelf_acacia", "y": 0 },
+		"facing=south": { "model": "aki:block/shelf_acacia", "y": 90 },
+		"facing=west":  { "model": "aki:block/shelf_acacia", "y": 180 }
+	}
+}

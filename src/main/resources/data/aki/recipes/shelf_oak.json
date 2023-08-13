@@ -1,0 +1,21 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "misc",
+	"key": {
+		"#": {
+			"item": "minecraft:oak_planks"
+		},
+		"X": {
+			"item": "minecraft:oak_slab"
+		}
+	},
+	"pattern": [
+		"#X#",
+		"#X#",
+		"#X#"
+	],
+	"result": {
+		"item": "aki:shelf_oak"
+	},
+	"show_notification": true
+}

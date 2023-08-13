@@ -1,0 +1,21 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "misc",
+	"key": {
+		"#": {
+			"item": "minecraft:warped_planks"
+		},
+		"X": {
+			"item": "minecraft:warped_slab"
+		}
+	},
+	"pattern": [
+		"#X#",
+		"#X#",
+		"#X#"
+	],
+	"result": {
+		"item": "aki:shelf_warped"
+	},
+	"show_notification": true
+}

@@ -1,0 +1,21 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "misc",
+	"key": {
+		"#": {
+			"item": "minecraft:mangrove_planks"
+		},
+		"X": {
+			"item": "minecraft:mangrove_slab"
+		}
+	},
+	"pattern": [
+		"#X#",
+		"#X#",
+		"#X#"
+	],
+	"result": {
+		"item": "aki:shelf_mangrove"
+	},
+	"show_notification": true
+}
